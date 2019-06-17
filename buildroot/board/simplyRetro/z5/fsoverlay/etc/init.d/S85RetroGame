@@ -2,3 +2,4 @@
 
 echo "Starting Retro Game"
 /usr/bin/retrogame &
+/bin/fbcp &
