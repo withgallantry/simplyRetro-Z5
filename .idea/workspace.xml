@@ -4,6 +4,7 @@
     <list default="true" id="b5e54357-2243-4c9c-8e70-a1865e704b9d" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buildroot/board/simplyRetro/z5/fsoverlay/etc/init.d/S23expand-rootfs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildroot/configs/simplyRetro-z5_defconfig" afterPath="$PROJECT_DIR$/buildroot/configs/simplyRetro-z5_defconfig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +16,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="simplyRetro-z5_defconfig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buildroot/configs/simplyRetro-z5_defconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buildroot/board/simplyRetro/z5/genimage/config.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -25,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="S23expand-rootfs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="S23expand-rootfs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buildroot/board/simplyRetro/z5/fsoverlay/etc/init.d/S23expand-rootfs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,12 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>retropower.c</find>
-      <find>retropower.cf</find>
-      <find>BATADC</find>
-      <find>USBADC</find>
-      <find>voltageDivider</find>
-      <find>retropower.cfg</find>
       <find>s85</find>
       <find>/usr/bin/retrogame</find>
       <find>R85</find>
@@ -114,14 +119,12 @@
       <find>retro</find>
       <find>retrog</find>
       <find>retrogame</find>
-      <find>S85</find>
       <find>S8</find>
       <find>R</find>
       <find>Retrog</find>
       <find>Retrogame</find>
       <find>s</find>
       <find>ssh</find>
-      <find>S</find>
       <find>SSH</find>
       <find>d</find>
       <find>drop</find>
@@ -129,6 +132,14 @@
       <find>dropbea</find>
       <find>dropbear</find>
       <find>dropbeara</find>
+      <find>S</find>
+      <find>S85</find>
+      <find>Re</find>
+      <find>Retrop</find>
+      <find>RetropO</find>
+      <find>Retro</find>
+      <find>RetroPow</find>
+      <find>RetroPower</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/buildroot/board/simplyRetro/z5/fsoverlay/root</dir>
@@ -145,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/buildroot/configs/simplyRetro-z5_defconfig" />
         <option value="$PROJECT_DIR$/buildroot/board/simplyRetro/z5/fsoverlay/etc/init.d/S85RetroGame" />
         <option value="$PROJECT_DIR$/buildroot/board/simplyRetro/z5/genimage/retropower.cfg" />
         <option value="$PROJECT_DIR$/buildroot/board/simplyRetro/z5/fsoverlay/etc/init.d/S80RetroPower" />
@@ -154,6 +164,7 @@
         <option value="$PROJECT_DIR$/buildroot/board/simplyRetro/z5/post-image.sh" />
         <option value="$PROJECT_DIR$/buildroot/board/simplyRetro/z5/genimage/config.txt" />
         <option value="$PROJECT_DIR$/buildroot/board/simplyRetro/z5/fsoverlay/etc/init.d/S23expand-rootfs" />
+        <option value="$PROJECT_DIR$/buildroot/configs/simplyRetro-z5_defconfig" />
       </list>
     </option>
   </component>
@@ -1097,12 +1108,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560723528841</updated>
       <workItem from="1560723530720" duration="6783000" />
-      <workItem from="1563561158648" duration="1873000" />
+      <workItem from="1563561158648" duration="2501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8656000" />
+    <option name="totallyTimeSpent" value="9284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -1280,14 +1291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildroot/configs/simplyRetro-z5_defconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buildroot/board/simplyRetro/z5/genimage/retropower.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1441,8 +1444,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buildroot/board/simplyRetro/z5/fsoverlay/etc/init.d/S23expand-rootfs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildroot/configs/simplyRetro-z5_defconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding />
         </state>
       </provider>
